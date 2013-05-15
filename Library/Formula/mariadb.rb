@@ -2,7 +2,7 @@ require 'formula'
 
 class Mariadb < Formula
   homepage 'http://mariadb.org/'
-  url 'http://ftp.osuosl.org/pub/mariadb/mariadb-5.5.30/kvm-tarbake-jaunty-x86/mariadb-10.0.2.tar.gz'
+  url 'http://ftp.osuosl.org/pub/mariadb/mariadb-10.0.2/kvm-tarbake-jaunty-x86/mariadb-10.0.2.tar.gz'
   md5 'f93dddd6799e26fb60793ec24a9d9abe'
 
   depends_on 'cmake' => :build
